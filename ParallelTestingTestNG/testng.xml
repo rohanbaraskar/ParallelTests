@@ -1,0 +1,22 @@
+
+<suite name="Suite1" verbose="1" parallel="tests"> //here parallel="tests" means run both the test in parallel and thread-count="2" means run two test cases parallel.  
+  <test name="Test1">
+  <parameter name="browser" value="FF" />  //to pass the input to the java class
+   <classes> 
+          <class name="sample.Test1"/>   //1 hello is package name and ParallelExecution is class name 
+   </classes>
+  </test> 
+  <test name="Test2">
+  <parameter name="browser" value="IE" />
+   <classes> 
+          <class name="sample.Test1"/> //here hello is package name and ParallelExecution is class name 
+   </classes>
+    </test> 
+    <test name="Test3">
+  <parameter name="browser" value="CH" />  //to pass the input to the java class
+   <classes> 
+          <class name="sample.Test1"/>   //1 hello is package name and ParallelExecution is class name 
+   </classes>
+  </test> 
+ 
+</suite> 

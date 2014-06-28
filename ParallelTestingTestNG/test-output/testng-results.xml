@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="35004" started-at="2014-06-28T06:54:26Z" finished-at="2014-06-28T06:55:01Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="34092" started-at="2014-06-28T06:54:26Z" finished-at="2014-06-28T06:55:00Z">
+      <class name="sample.Test1">
+        <test-method status="PASS" signature="openBroswer(java.lang.String)[pri:0, instance:sample.Test1@d3509c]" name="openBroswer" is-config="true" duration-ms="8802" started-at="2014-06-28T12:24:26Z" finished-at="2014-06-28T12:24:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBroswer -->
+        <test-method status="PASS" signature="test()[pri:0, instance:sample.Test1@d3509c]" name="test" duration-ms="25057" started-at="2014-06-28T12:24:34Z" finished-at="2014-06-28T12:24:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:sample.Test1@d3509c]" name="closeBrowser" is-config="true" duration-ms="207" started-at="2014-06-28T12:24:59Z" finished-at="2014-06-28T12:25:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- sample.Test1 -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="34257" started-at="2014-06-28T06:54:26Z" finished-at="2014-06-28T06:55:00Z">
+      <class name="sample.Test1">
+        <test-method status="PASS" signature="openBroswer(java.lang.String)[pri:0, instance:sample.Test1@16aa544]" name="openBroswer" is-config="true" duration-ms="3435" started-at="2014-06-28T12:24:26Z" finished-at="2014-06-28T12:24:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBroswer -->
+        <test-method status="PASS" signature="test()[pri:0, instance:sample.Test1@16aa544]" name="test" duration-ms="15575" started-at="2014-06-28T12:24:29Z" finished-at="2014-06-28T12:24:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:sample.Test1@16aa544]" name="closeBrowser" is-config="true" duration-ms="15224" started-at="2014-06-28T12:24:45Z" finished-at="2014-06-28T12:25:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- sample.Test1 -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="35004" started-at="2014-06-28T06:54:26Z" finished-at="2014-06-28T06:55:01Z">
+      <class name="sample.Test1">
+        <test-method status="PASS" signature="openBroswer(java.lang.String)[pri:0, instance:sample.Test1@244f19]" name="openBroswer" is-config="true" duration-ms="2596" started-at="2014-06-28T12:24:26Z" finished-at="2014-06-28T12:24:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CH]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBroswer -->
+        <test-method status="PASS" signature="test()[pri:0, instance:sample.Test1@244f19]" name="test" duration-ms="29296" started-at="2014-06-28T12:24:28Z" finished-at="2014-06-28T12:24:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:sample.Test1@244f19]" name="closeBrowser" is-config="true" duration-ms="3090" started-at="2014-06-28T12:24:57Z" finished-at="2014-06-28T12:25:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- sample.Test1 -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

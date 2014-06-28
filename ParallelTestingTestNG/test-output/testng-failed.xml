@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]" parallel="tests">
+  <parameter name="browser" value="CH"/>
+  <test name="Test2(failed)" parallel="tests">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="sample.Test1">
+        <methods>
+          <include name="test"/>
+          <include name="openBroswer"/>
+          <include name="openBroswer"/>
+          <include name="openBroswer"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- sample.Test1 -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test name="Test3(failed)" parallel="tests">
+    <parameter name="browser" value="CH"/>
+    <classes>
+      <class name="sample.Test1">
+        <methods>
+          <include name="test"/>
+          <include name="openBroswer"/>
+          <include name="openBroswer"/>
+          <include name="openBroswer"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- sample.Test1 -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test name="Test1(failed)" parallel="tests">
+    <parameter name="browser" value="FF"/>
+    <classes>
+      <class name="sample.Test1">
+        <methods>
+          <include name="test"/>
+          <include name="openBroswer"/>
+          <include name="openBroswer"/>
+          <include name="openBroswer"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- sample.Test1 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
